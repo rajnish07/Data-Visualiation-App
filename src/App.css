@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+  padding: 2%;
+  border: 15px double gray;
+}
+
+.chart{
+  border: 2px dotted black
+}
+
+button{
+  align-items: center;
+  border-radius: 2px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  display: inline-flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 600;
+  justify-content: center;
+  line-height: inherit;
+  outline: none;
+  overflow: visible;
+  padding: 6px 12px;
+  position: relative;
+  background: #0078d4;
+  color: white;
+  margin: 5px;
+}
+
+.err{
+  color: red
+}
